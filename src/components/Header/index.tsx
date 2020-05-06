@@ -15,6 +15,7 @@ const Header: React.FC<HeaderProps> = ({ size = 'large' }: HeaderProps) => (
     <header>
       <img src={Logo} alt="GoFinances" />
       <nav>
+        <Link to="/">Transações</Link>
         <Link to="/import" className="btn-importar">
           Importar
         </Link>
